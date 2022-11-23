@@ -1,0 +1,7 @@
+The objects are the building blocks of the object oriented programming language. A programmer may use multiple
+objects belonging to different classes in some situations, which may have some relationship among themselves as they share some common features. 
+
+Let us consider an example of a program containing objects of two different classes, Car and Motorcycle, 
+for maintaining car and motorcycle information, respectively. Both Car and Motorcycle classes exhibit some 
+relationship as both are vehicles and share some common features like speed, engine specification, etc.
+To represent the relationship between classes, we use the concept of Inheritance.
