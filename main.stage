@@ -1,0 +1,16 @@
+public class ExampleEvents
+{
+    // A public field, these should be used sparingly
+    public bool IsValid;
+
+    // An init-only property
+    public IWorkerQueue WorkerQueue { get; init; }
+
+    
+    public void StartEventProcessing()
+    {
+        // Local function
+        static int CountQueueItems() => WorkerQueue.Count;
+        // ...
+    }
+}
